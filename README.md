@@ -1,6 +1,6 @@
 # Google Dorks
 
-### Broad domain search w/ negative search <!--omit-->
+### Broad domain search w/ negative search
 
 ```
 site:example.com -www -shop -share -ir -mfa
@@ -229,7 +229,7 @@ inurl:/wp-admin/admin-ajax.php "example[.]com"
 intext:"Powered by" & intext:Drupal & inurl:user "example[.]com"
 ```
 
-### Joomla <!--omit-->
+### Joomla
 
 ```
 site:*/joomla/login "example[.]com"
