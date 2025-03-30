@@ -1,4 +1,4 @@
-# Google Dorks for Bug Bounty
+# Google Dorks
 
 ### Broad domain search w/ negative search <!--omit-->
 
