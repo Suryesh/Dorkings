@@ -99,8 +99,7 @@ inurl:test | inurl:env | inurl:dev | inurl:staging | inurl:sandbox | inurl:debug
 ### Sensitive Documents
 
 ```
-site:example.com ext:txt | ext:pdf | ext:xml | ext:xls | ext:xlsx | ext:ppt | ext:pptx | ext:doc | ext:docx
-intext:“confidential” | intext:“Not for Public Release” | intext:”internal use only” | intext:“do not distribute”
+site:example.com ext:txt | ext:pdf | ext:xml | ext:xls | ext:xlsx | ext:ppt | ext:pptx | ext:doc | ext:docx | intext:"confidential" | intext:"Not for Public Release" | intext:"internal use only" | intext:"do not distribute"
 ```
 
 ### Sensitive Parameters
