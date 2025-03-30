@@ -211,57 +211,26 @@ site:jfrog.io "example[.]com"
 site:firebaseio.com "example[.]com"
 ```
 
-## Dorks that work better w/o domain
-
-### Bug Bounty programs and Vulnerability Disclosure Programs <!--omit-->
-
-```
-"submit vulnerability report" | "powered by bugcrowd" | "powered by hackerone"
-```
-
-```
-site:*/security.txt "bounty"
-```
-
 ### Apache Server Status Exposed <!--omit-->
 
 ```
-site:*/server-status apache
+site:*/server-status apache "example[.]com"
 ```
 
-### WordPress <!--omit-->
+### WordPress
 
 ```
-inurl:/wp-admin/admin-ajax.php
+inurl:/wp-admin/admin-ajax.php "example[.]com"
 ```
 
-### Drupal <!--omit-->
+### Drupal
 
 ```
-intext:"Powered by" & intext:Drupal & inurl:user
+intext:"Powered by" & intext:Drupal & inurl:user "example[.]com"
 ```
 
 ### Joomla <!--omit-->
 
 ```
-site:*/joomla/login
+site:*/joomla/login "example[.]com"
 ```
-
-
----
-
-Medium articles for more dorks:
-
-https://thegrayarea.tech/5-google-dorks-every-hacker-needs-to-know-fed21022a906
-
-https://infosecwriteups.com/uncover-hidden-gems-in-the-cloud-with-google-dorks-8621e56a329d
-
-https://infosecwriteups.com/10-google-dorks-for-sensitive-data-9454b09edc12
-
-Top Parameters:
-
-https://github.com/lutfumertceylan/top25-parameter
-
-Proviesec dorks:
-
-https://github.com/Proviesec/google-dorks
