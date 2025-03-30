@@ -211,7 +211,7 @@ site:jfrog.io "example[.]com"
 site:firebaseio.com "example[.]com"
 ```
 
-### Apache Server Status Exposed <!--omit-->
+### Apache Server Status Exposed
 
 ```
 site:*/server-status apache "example[.]com"
