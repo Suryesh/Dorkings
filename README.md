@@ -75,7 +75,7 @@ inurl:cmd | inurl:exec= | inurl:query= | inurl:code= | inurl:do= | inurl:run= | 
 ### File upload endpoints
 
 ```
-site:example.com ”choose file”
+site:example.com "choose file"
 ```
 
 ### API Docs
@@ -112,12 +112,6 @@ inurl:email= | inurl:phone= | inurl:password= | inurl:secret= inurl:& site:examp
 
 ```
 inurl:/content/usergenerated | inurl:/content/dam | inurl:/jcr:content | inurl:/libs/granite | inurl:/etc/clientlibs | inurl:/content/geometrixx | inurl:/bin/wcm | inurl:/crx/de site:example[.]com
-```
-
-### Disclosed XSS and Open Redirects
-
-```
-site:openbugbounty.org inurl:reports intext:"example.com"
 ```
 
 ### Google Groups
